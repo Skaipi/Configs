@@ -5,6 +5,9 @@ set langmenu=en_US.UTF-8
 set tabstop=4
 set backspace=indent,eol,start
 
+" jj to Esc
+:imap jj <Esc>
+
 " Color schemes 
 color dracula
 set guioptions=m
