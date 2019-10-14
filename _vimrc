@@ -9,7 +9,7 @@ set backspace=indent,eol,start
 :imap jj <Esc>
 
 " Color schemes 
-color dracula
+" color dracula
 set guioptions=m
 set number
 set guifont=DejaVu_Sans_Mono:h16:cANSI
