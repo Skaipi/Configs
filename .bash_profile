@@ -14,6 +14,7 @@ BOLD=$(tput bold)
 NORMAL=$(tput sgr0)
 
 PS1='\[${BOLD}${RED}\]Mateusz\[${NORMAL}${BOLD}\]@\[${RED}\]\h\[${NORMAL}\]: \[${BOLD}${BLUE}\]\w\[${NORMAL}\]\$ '; export PS1
+if [ "$TERM" = xterm ]; then TERM=xterm-256color; fi
 
 #Define convenient commands
 alias null='/dev/null'
