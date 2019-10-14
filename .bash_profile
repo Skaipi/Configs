@@ -1,7 +1,7 @@
 #Extend bashrc
 source ~/.bashrc
 
-#Define some cool colors (for me of course)
+#Define some colors
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
 YELLOW=$(tput setaf 3)
@@ -23,6 +23,6 @@ alias vim='vi -i NONE'
 #Define some variables
 unset SSH_ASKPASS
 
-#Add colors to my terminal
+#Add colors to terminal
 TERM=xterm-color
 export TERM
