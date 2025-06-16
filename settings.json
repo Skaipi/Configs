@@ -1,0 +1,69 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Dracula Theme",
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vim.easymotion": true,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-d>": false,
+    "<C-b>": false,
+    "<C-c>": false,
+    "<C-{>": false,
+    "<C-}>": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Enable ESLint for JavaScript and TypeScript
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  // Formatter for JavaScript and TypeScript
+  "[javascript][typescript][javascriptreact][typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+  },
+  "prettier.printWidth": 120,
+  "prettier.useEditorConfig": false,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "σ": true,
+    "ρ": true
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  // Font settings
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+  "terminal.integrated.fontSize": 15,
+  "editor.fontFamily": "Cascadia Mono",
+
+  // Draw.io settings
+  "hediet.vscode-drawio.resizeImages": null,
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "hediet.vscode-drawio.appearance": "dark",
+}
